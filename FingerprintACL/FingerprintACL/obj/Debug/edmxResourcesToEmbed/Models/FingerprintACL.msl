@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DEMOModelStoreContainer" CdmEntityContainer="DEMOEntities">
+    <EntitySetMapping Name="tblEnrolls">
+      <EntityTypeMapping TypeName="DEMOModel.tblEnroll">
+        <MappingFragment StoreEntitySet="tblEnroll">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="Finger" ColumnName="Finger" />
+          <ScalarProperty Name="Template" ColumnName="Template" />
+          <ScalarProperty Name="quality" ColumnName="quality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
